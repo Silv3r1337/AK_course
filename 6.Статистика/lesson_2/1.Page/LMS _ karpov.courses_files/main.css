@@ -1,0 +1,45 @@
+html {
+    font-size: 14px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 100;
+}
+
+.app-iframe-container {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    padding-top: 58px;
+    margin-top: -58px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.app-iframe-container iframe {
+    border: 0;
+}
+
+.react-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.react-container-scrollable {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    padding-top: 58px;
+    margin-top: -58px;
+}
+
+.react-container-scrollable .react-container {
+    height: 100%;
+    padding-top: 0;
+    position: initial;
+    margin-top: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
